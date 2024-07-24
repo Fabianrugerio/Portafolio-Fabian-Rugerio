@@ -5,3 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root {
+  --negro: #393939;
+  /* Tipografia */
+  --tipo-principal: "Noto Sans", sans-serif;
+  --tipo-secundaria: Verdana
+}
