@@ -4,7 +4,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-
+	box-shadow: 0 0 20px gray;
 }
 .header-wrapper{
 	width: 100%;
@@ -16,7 +16,7 @@
 
 }
 .header-brand{
-	width: 120px;
+	width: 50px;
 }
 
 .header-nav{
@@ -103,12 +103,65 @@
 
 }
 .hero-image{
-	width: 90px;
-  height: 100px;
+	width: 60%;
 	background-color: var(--morado);
 	border-radius: 50%;
 }
-img {
-  width: 50px;
-  height: 60px;
+/* Clases del main */
+.main {
+	display: flex;
+	justify-content: center;
+}
+.main-wrapper {
+	width: 100%;
+	max-width: 1200px;
+}
+/* Secsion de servicios */
+.services{
+	padding: 24px;
+}
+.services-content {
+	max-width: 600px;
+	margin-bottom: 24px;
+}
+.services-tittle {
+	font-size: 40px;
+	color: var(--morado);
+	font-weight: 900;
+	margin-bottom: 25px;
+}
+.services-paragraph {
+	font-size: 20px;
+	color: var(--negro);
+	line-height: 30px;
+}
+.services-card {
+	display: grid;
+	gap: 24px;
+	grid-template-columns: repeat(3, 1fr);
+}
+.services-item {
+	display: flex;
+	padding: 24px;
+	flex-direction: column;
+	justify-content: center;
+	gap: 24px;
+	text-align: center;
+	border-radius: 24px;
+	box-shadow: 0 0 20px gray;
+}
+.services-image {
+	align-self: center;
+	max-width: 180px;
+}
+.services-subtittle {
+	font-size: 32px;
+	font-weight: 900;
+	color: var(--morado);
+}
+.services-description {
+	font-size: 20px;
+	line-height: 30px;
+	color: var(--negro);
+	hyphens: none;
 }
